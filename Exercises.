@@ -1,1 +1,26 @@
+//practing
 
+#include <stdio.h>
+
+
+int main() {
+
+int numero, tabuada, resultado;
+
+printf("Digite um numero inteiro: ");
+scanf("%d", &numero);
+printf("Indique qual valor a tabuada deve terminar: ");
+scanf("%d", &tabuada);
+
+
+for (int i = 1; i <= tabuada; i++) {
+    resultado = numero * i;
+    printf("%d x %d = %d\n", numero, i, resultado);
+}
+
+return 0;
+
+
+
+
+}
